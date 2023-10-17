@@ -18,7 +18,7 @@ async function bootstrap() {
 
   app.enableCors({
     credentials: true,
-    origin: ['http://localhost:3001'],
+    origin: ['http://localhost:3001', 'https://shoplayout.onrender.com/'],
     methods: ['GET', 'POST', 'DELETE', 'PUT', 'PATCH'],
   });
 
