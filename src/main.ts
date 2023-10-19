@@ -20,9 +20,8 @@ async function bootstrap() {
     credentials: true,
     origin: [
       'http://localhost:3001',
-      'https://shoplayout.onrender.com/',
       'https://shoplayout.onrender.com',
-      'https://shop-layout-client.vercel.app/',
+      'https://shop-layout-client.vercel.app',
     ],
     methods: ['GET', 'POST', 'DELETE', 'PUT', 'PATCH'],
   });
