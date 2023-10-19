@@ -22,6 +22,7 @@ async function bootstrap() {
       'http://localhost:3001',
       'https://shoplayout.onrender.com',
       'https://shop-layout-client.vercel.app',
+      'https://shop-layout-client-production.up.railway.app',
     ],
     methods: ['GET', 'POST', 'DELETE', 'PUT', 'PATCH'],
   });
